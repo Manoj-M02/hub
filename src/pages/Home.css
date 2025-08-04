@@ -45,4 +45,9 @@ background: transparent;
   border-radius: 20px;
   margin-top: 20%;
   margin-left: 25%;
+  
+}
+.bar:nth-child(2),
+.bar:nth-child(3) {  
+  top: 16px;
 }
