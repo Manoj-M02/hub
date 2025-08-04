@@ -37,7 +37,7 @@ function Register() {
       navigate("/login");
     } catch (err) {
       console.log("error", err);
-      alert("Error: " + err.response?.data?.message);
+       alert("Error: " + err.response?.data?.message);
     }
   };
 
